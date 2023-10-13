@@ -1,0 +1,58 @@
+
+
+/* Estilos da barra lateral */
+.sidebar {
+  padding: 1.5rem 1.25rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Estilos do logotipo */
+.sidebar .logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Estilos para o botão "Novo Tweet" */
+.sidebar .new-tweet {
+  background: var(--twitter-blue);
+  border-radius: 9999px;
+  padding: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.25rem;
+  font-weight: 900;
+  border: 0;
+}
+
+/* Efeito de hover para o botão "Novo Tweet" */
+.sidebar .new-tweet:hover {
+  filter: brightness(0.9);
+}
+
+/* Estilos da navegação principal */
+.main-navegation{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main-navegation a{
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+ 
+.main-navegation a.active{
+  color: var(--twitter-blue);
+}
+.main-navegation a svg{ 
+  width: 2rem;
+  height: 2rem;
+}

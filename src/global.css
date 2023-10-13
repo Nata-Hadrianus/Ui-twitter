@@ -1,0 +1,48 @@
+/* Reset de estilos para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definição de variável para a cor azul do Twitter */
+:root {
+  --twitter-blue: #1da1f2;
+}
+
+/* Estilos gerais do corpo da página */
+body {
+  background-color: rgb(251, 253, 250);
+  color: rgb(30, 27, 27);
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Cursor de apontar para botões */
+button {
+  cursor: pointer;
+}
+
+/* Estilização de links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Layout da página */
+.layout {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 300px 2fr;
+  
+}
+
+/* Estilos da área de conteúdo */
+.content {
+  border-left: 1px solid #ebeef0;
+  border-right: 1px solid #ebeef0;
+}
+
+

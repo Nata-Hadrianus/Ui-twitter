@@ -1,0 +1,19 @@
+ .timeline-header {
+   padding: 2rem 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.25rem;
+   font-weight: 900;
+   border-bottom: 1px solid #ebeef0;
+}
+
+ .timeline-header svg {
+   width: 2.23rem;
+   height: 1.5rem;
+   color: var(--twitter-blue);
+}
+
+ .title {
+   margin-right: 3.5rem; /* Adicione este estilo para criar um espaço à direita do título */
+ }
